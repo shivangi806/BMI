@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family:sans-serif;
+    height:100vh;
+    background-image: url(https://thumbs.dreamstime.com/b/doing-side-plank-yoga-class-beautiful-group-women-practicing-pose-gym-35911821.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+div{
+    width:500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color:rgb(0,0,0,0.5) ;
+    transform:translate(-50%,-50%);
+    padding:5px;
+    box-shadow: 2px 2px 20px #919191;
+    border-radius: 70px;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(246, 251, 255);
+    margin-bottom: 30px;
+}
+.bm{
+    font-size: 60px;
+}
+.text{
+    text-align:left ;
+    margin-left: 100px;
+    color:rgb(240, 241, 243)
+}
+#weight,#height{
+    color:rgb(250, 253, 255);
+    text-align: left;
+    font-size: 250;
+    border:1px solid #fff;
+    width:300px;
+    background-color: transparent;
+    border-radius: 4px;
+    outline: none;
+}
+#result{
+    color: #fff;
+}
+.btn {
+    background: #eb8ddb;
+    background-image: -webkit-linear-gradient(top, #eb8ddb, #f544c3);
+    background-image: -moz-linear-gradient(top, #eb8ddb, #f544c3);
+    background-image: -ms-linear-gradient(top, #eb8ddb, #f544c3);
+    background-image: -o-linear-gradient(top, #eb8ddb, #f544c3);
+    background-image: linear-gradient(to bottom, #eb8ddb, #f544c3);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #eb116c;
+    background-image: -webkit-linear-gradient(top, #eb116c, #d16baf);
+    background-image: -moz-linear-gradient(top, #eb116c, #d16baf);
+    background-image: -ms-linear-gradient(top, #eb116c, #d16baf);
+    background-image: -o-linear-gradient(top, #eb116c, #d16baf);
+    background-image: linear-gradient(to bottom, #eb116c, #d16baf);
+    text-decoration: none;
+  }
+  #info{
+      color:#fff;
+  }

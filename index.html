@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="C:\Users\shiva\Desktop\HTML docs\BMI calculator\favicon.ico">
+    
+</head>
+
+<body>
+    <div class="first">
+        <h1 class="bm">𝐁𝐌𝐈  𝐜𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐨𝐫</h1>
+        
+        <p class="text">Height</p>
+        <input type="text" id="height">
+        <p class="text">Weight</p>
+        <input type="text"id="weight">
+        <p id="result">Result</p>
+        <button class="btn" onclick="bmi()">Calculate</button>
+        <p id="info">Please enter your height in [cm] and weight in [Kg]</p>
+    </div>
+    <script>
+        function bmi() {
+         var h=document.getElementById('height').value;
+         var w=document.getElementById('weight').value;
+         var bmi=w/(h/100*h/100);
+         var total=bmi.toFixed(3);document.getElementById('result').innerHTML="Your BMI is" +" " +total;
+
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+
+◦•●❤♡ BMI  ♡❤●•◦
